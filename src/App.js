@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import HomePage from "./components/Pages/HomePage";
 import Footer from "./components/Shared/Footer";
 import Header from "./components/Shared/Header";
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <HomePage />
       <Footer />
+      <Toaster />
     </div>
   );
 }
