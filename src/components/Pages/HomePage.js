@@ -4,9 +4,8 @@ import QuestionsAccordion from './QuestionsAccordion';
 
 const HomePage = () => {
     return (
-        <div >
-            <PasswordGenerator />
-            <QuestionsAccordion />
+        <div className='min-h-screen flex items-center justify-center'>
+            <h4 className='text-4xl'>This is HomePage</h4>
         </div>
     );
 };

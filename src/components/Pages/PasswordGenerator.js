@@ -58,7 +58,7 @@ const PasswordGenerator = () => {
                         </svg>
                     </button>
                 </div>
-                <p className={`text-xs mb-4 ml-2 ${(password.length > 8) ? 'text-green-400' : 'text-red-400'}`}>{passwordStatus}</p>
+                <p className={`text-xs mb-4 ml-2 ${(password.length > 10) ? 'text-green-400' : 'text-red-400'} `}>{passwordStatus}</p>
 
 
                 <form onSubmit={event => handleSubmit(event)} class="space-y-6" action="#">
